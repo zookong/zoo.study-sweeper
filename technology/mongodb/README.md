@@ -11,7 +11,8 @@
 > MMAPv1
 
 `MMAPv1은 MongoDB 2.6 버전까지 기본 스토리지 엔진`
-`MongoDB 3.0 버전부터는 MMAPv1을 사용할 수 없음`
+`MongoDB 4.0 버전부터는 Deprecated 되었음`
+`MongoDB 4.2 버전부터는 옵션에서 사라짐`
 
 > WiredTiger
 
