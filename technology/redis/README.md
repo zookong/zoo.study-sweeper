@@ -60,6 +60,17 @@ HDEL key field [field ...]
 
 > Memcached
 
+`단순성 및 사용 편의성이 높음`
+`Redis에 비에 데이터 타입이 제한`
+
+```
+// Redis vs Memcached
+// TODO : 아래의 링크를 읽고 차이점 더 정리해보기
+https://www.javatpoint.com/redis-vs-memcached
+https://aws.amazon.com/ko/elasticache/redis-vs-memcached/
+https://www.imaginarycloud.com/blog/redis-vs-memcached/
+```
+
 > Hazelcast
 
 > Apache Ignite
@@ -71,6 +82,11 @@ HDEL key field [field ...]
 `로컬 캐시만 지원`
 `속도가 빠르고 경량`
 `단일 서버에 적합하고 Redis에 비해 복잡성이 낮음`
+
+```
+// 분산 캐시 관련 내용
+https://www.ehcache.org/documentation/3.4/clustered-cache.html
+```
 
 > Caffeine
 
