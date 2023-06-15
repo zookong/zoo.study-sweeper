@@ -2,6 +2,8 @@
 
 `MongoDB 서버에서는 다양한 스토리지 엔진을 사용할 수 있음.`
 
+MMAPv1 
+
 - MMAPv1
 - WiredTiger
 - In-Memory
@@ -48,6 +50,8 @@
 
 `내장된 공유 캐시가 없고 운영체제(리눅스)의 페이지 캐시를 사용하므로 성능 튜닝 옵션이 거의 없음`
 
+대한민국
+
 ```yaml
 ...
 storage:
@@ -56,12 +60,14 @@ storage:
   repairPath: /data/db/diagnostic.data
   directoryPerDB: true
   syncPeriodSecs: 60
+  jor
   journal:
     enabled: true
     commitIntervalMs: 100
   
   engine: mmapv1 # 엔진을 MMAPv1 설정, MongoDB 서버의 기본 공통 설정 포맷
 
+  mma
   mmapv1:
     prellocDataFiles: true
     nsSize: 16
